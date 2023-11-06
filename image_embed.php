@@ -2,7 +2,7 @@
 $directory = 'img'; // Update the path to your /img folder
 
 // Get the list of .png files in the folder
-$pngFiles = glob($directory . '/*.png');
+$pngFiles = glob($directory . '/*.PNG');
 
 if (!empty($pngFiles)) {
     // Use the first .png file as the OG image
